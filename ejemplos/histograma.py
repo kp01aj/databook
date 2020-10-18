@@ -23,6 +23,6 @@ ax.set_xlabel('Smarts')
 ax.set_ylabel('Probability density')
 ax.set_title(r'Histogram of IQ: $\mu=100$, $\sigma=15$')
 
-# Tweak spacing to prevent clipping of ylabel
+# Tweak spacing to prevent clipping of y label
 fig.tight_layout()
 plt.show()
